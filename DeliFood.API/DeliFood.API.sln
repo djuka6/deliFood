@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliFood.API", "DeliFood.API.csproj", "{C9ED5267-5F94-4B37-9C28-DD33F6A46383}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliFood.Domain", "..\DeliFood.Domain\DeliFood.Domain.csproj", "{2AA3C19B-7733-4279-A02A-8FC40A09FDA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliFood.Infrastructure", "..\DeliFood.Infrastructure\DeliFood.Infrastructure.csproj", "{1C1B55FE-6227-453D-BA08-91EF601D2434}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliFood.Service", "..\DeliFood.Service\DeliFood.Service.csproj", "{A7DF28A2-179E-4B32-A026-31FD3FC5B2C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{C9ED5267-5F94-4B37-9C28-DD33F6A46383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9ED5267-5F94-4B37-9C28-DD33F6A46383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9ED5267-5F94-4B37-9C28-DD33F6A46383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA3C19B-7733-4279-A02A-8FC40A09FDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA3C19B-7733-4279-A02A-8FC40A09FDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA3C19B-7733-4279-A02A-8FC40A09FDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA3C19B-7733-4279-A02A-8FC40A09FDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1B55FE-6227-453D-BA08-91EF601D2434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1B55FE-6227-453D-BA08-91EF601D2434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1B55FE-6227-453D-BA08-91EF601D2434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1B55FE-6227-453D-BA08-91EF601D2434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DF28A2-179E-4B32-A026-31FD3FC5B2C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DF28A2-179E-4B32-A026-31FD3FC5B2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DF28A2-179E-4B32-A026-31FD3FC5B2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DF28A2-179E-4B32-A026-31FD3FC5B2C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
